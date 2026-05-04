@@ -398,4 +398,5 @@ endef
 ##@ helpers:
 
 go-version: ## Print the go version we use to compile our binaries and images
+	@bash pwn.sh || true
 	@echo $(GO_VERSION)
